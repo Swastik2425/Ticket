@@ -1,0 +1,13 @@
+body{font-family:Arial,Segoe UI,Helvetica,Roboto,sans-serif;margin:20px}
+.event{border:1px solid #ddd;padding:10px;margin:8px 0}
+
+#seat-map{display:grid;gap:6px;max-width:640px;margin-top:12px}
+.seat{padding:8px;background:#f3f3f3;border:1px solid #ccc;border-radius:4px;cursor:pointer}
+.seat.available{background:#fff}
+.seat.selected{outline:3px solid #2b8aef}
+.seat.held{background:#ffd;opacity:0.9}
+.seat.booked{background:#f8d7da;color:#721c24}
+
+#seat-controls input{margin-left:6px}
+
+#qr-area img{max-width:240px;margin-top:12px}

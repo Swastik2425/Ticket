@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ticket Demo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Ticket Booking Demo</h1>
+    <div id="controls">
+      <button id="create-sample">Create Sample Event</button>
+      <span id="status" style="margin-left:12px;color:#666"></span>
+    </div>
+    <div id="events"></div>
+    <div id="event-view" style="display:none">
+      <button id="back-to-list">← Back to events</button>
+      <h2 id="ev-title"></h2>
+      <div id="seat-controls" style="margin:8px 0">
+        <label>Email: <input id="customer-email" placeholder="you@example.com"/></label>
+        <button id="hold-seats">Hold Selected Seats</button>
+        <button id="confirm-booking" style="display:none">Confirm Booking</button>
+        <span id="hold-info" style="margin-left:12px;color:#666"></span>
+      </div>
+      <div id="seat-map"></div>
+      <div id="qr-area"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
